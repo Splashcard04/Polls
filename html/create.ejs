@@ -20,7 +20,7 @@
         </div>
         <div id="options"></div>
     </form>
-    <form action="/addoption" method="post">
+    <form action="/addoption" method="post" id="addform">
         <button id="add" type="submit">Add Option +</button>
     </form>
     
@@ -39,6 +39,9 @@
         }
 
         button.addEventListener(`click`, addInput)
+        document.getElementById(`addform`).addEventListener(`submit`, (e) => {
+            e.preventDefault()
+        })
     </script>
 </body>
 </html>
