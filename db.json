@@ -1,0 +1,106 @@
+{
+    "polls": [
+        {
+            "title": "Favorite Color",
+            "user": "Shawn",
+            "options": [
+                {
+                    "name": "Red",
+                    "votes": 29,
+                    "id": 1,
+                    "voted": []
+                },
+                {
+                    "name": "Blue",
+                    "votes": 9,
+                    "id": 2,
+                    "voted": []
+                },
+                {
+                    "name": "Green",
+                    "votes": 13,
+                    "id": 3,
+                    "voted": []
+                }
+            ],
+            "id": "2314234423",
+            "path": "/poll/2314234423"
+        },
+        {
+            "user": "shane",
+            "options": [],
+            "id": "8371199542",
+            "path": "/poll/8371199542"
+        },
+        {
+            "user": "shane :)",
+            "options": [
+                {
+                    "name": "yodel",
+                    "votes": 1,
+                    "id": 0,
+                    "voted": [
+                        "::1"
+                    ]
+                },
+                {
+                    "name": "sing",
+                    "votes": 0,
+                    "id": 1,
+                    "voted": []
+                }
+            ],
+            "id": "6567077059",
+            "path": "/poll/6567077059"
+        },
+        {
+            "user": "Shane",
+            "options": [
+                {
+                    "name": "yeah",
+                    "votes": 0,
+                    "id": 0,
+                    "voted": []
+                },
+                {
+                    "name": "yea",
+                    "votes": 0,
+                    "id": 1,
+                    "voted": []
+                },
+                {
+                    "name": "ye",
+                    "votes": 0,
+                    "id": 2,
+                    "voted": []
+                },
+                {
+                    "name": "ya",
+                    "votes": 0,
+                    "id": 3,
+                    "voted": []
+                }
+            ],
+            "id": "7802943539",
+            "path": "/poll/7802943539"
+        },
+        {
+            "user": "sssss",
+            "options": [],
+            "id": "2206889376",
+            "path": "/poll/2206889376"
+        },
+        {
+            "user": "sssss",
+            "options": [],
+            "id": "9220724570",
+            "path": "/poll/9220724570"
+        },
+        {
+            "user": "sssss",
+            "options": [],
+            "id": "4048220697",
+            "path": "/poll/4048220697"
+        }
+    ]
+}

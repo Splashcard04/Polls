@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Poll</title>
+    <link rel="stylesheet" href="/create.css">
+</head>
+<body>
+    <h1>Create Poll</h1>
+    <form action="/created" method="post">
+        <p class="title">Name</p>
+        <input type="text" id="name" name="name" placeholder="Name of the poll"> <br>
+        <p class="title">User</p>
+        <input type="text" id="name" name="user" placeholder="Your Name"> <br>
+        <p class="title">Options</p>
+        
+        <div class="submit">
+            <button type="submit" id="create">Create Poll</button>
+        </div>
+        <div id="options"></div>
+    </form>
+    <form action="/addoption" method="post">
+        <button id="add" type="submit">Add Option +</button>
+    </form>
+    
+
+    <script>
+        const button = document.getElementById(`add`)
+        let i = 0
+        function addInput() {
+            const input = document.createElement(`input`)
+            input.type = `text`
+            i ++
+            input.name = `option${i}`
+            input.placeholder = `Option`
+            input.id = `${i}`
+            document.getElementById(`options`).appendChild(input)
+        }
+
+        button.addEventListener(`click`, addInput)
+    </script>
+</body>
+</html>

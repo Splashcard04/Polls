@@ -1,0 +1,86 @@
+body {
+    font-family: "Tahoma";
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(135deg, black, black, black, black, black, white);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.top-bar {
+    background-color: transparent;
+    color: white
+}
+
+.left h3 {
+    margin-left: 1%;
+    display: inline-block;
+}
+
+.left p {
+    display: inline;
+    margin-left: 1.8%;
+    padding-left: 0.3%;
+    padding-right: 0.3%;
+    padding-bottom: 0.3%;
+    font-size: 18px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(255, 100, 230);
+    cursor: default
+}
+
+.poll {
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+    background-color: rgb(14, 14, 14);
+    text-align: center;
+    border-radius: 10px;
+    padding: 2%;
+    border-color: rgb(167, 65, 150);
+    border-style: solid;
+}
+
+.poll h1 {
+    color: white;
+}
+
+.poll p {
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2%;
+    color: white
+}
+
+td, th {
+    border: 1px solid rgb(158, 61, 142);
+    text-align: left;
+    padding: 8px;
+}
+
+button {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+    background-color: rgb(184, 54, 162);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px
+}
+
+button:hover {
+    background-color: rgb(92, 24, 83);
+}
+
+h {
+    color: rgb(255, 100, 230)
+}

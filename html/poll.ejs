@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/poll.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <div class="left">
+                <h3><b>SurveyXYZ</b></h3>
+                <p>Poll</p>
+            </div>
+            <div class="right"></div>
+        </div>
+        <div class="content">
+            <div class="poll">
+                <div class="header">
+                    <div class="name">
+                        <h1><%=title%></h1>
+                    </div>
+                    <div class="user">
+                        <p>by <b><%=user%></b></p>
+                    </div>
+                </div>
+                <div class="scores">
+                    <table>
+                        <tr>
+                            <th>Option</th>
+                            <th>Score</th>
+                            <th>Vote</th>
+                        </tr>
+                    <% options.forEach(x => { %>
+                        
+                            
+                            <tr>
+                                <td><%=x.name%></td>
+                                <td id="score<%=x.id%>"><%=x.votes%></td>
+                                <td>
+                                    <form action="/vote<%=x.id%>" method="post">
+                                        <button>Vote</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        
+                     <% }) %>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

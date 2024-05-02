@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(231, 190, 228);
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS';
+}
+
+h1 {
+    margin-left: 1%;
+}
+
+input {
+    background-color: transparent;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0.3%;
+    margin-left: 1%;
+}
+
+.title {
+    margin-left: 1%
+}
+
+button {
+    margin-left: 1%;
+    background-color: transparent;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 0.6%;
+    cursor: pointer
+}
+
+button:hover {
+    background-color: rgba(92, 24, 83, 0.089);
+}
+
+#create {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
